@@ -25,7 +25,7 @@ jobs:
     
     - name: Run tests
       run: |
-        pytest test_app.py -v
+        pytest test.py -v
     
     - name: Test Streamlit app startup
       run: |
