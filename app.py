@@ -42,7 +42,6 @@ def main():
     with st.form("user_form"):
         name = st.text_input("Name", max_chars=200)
         email = st.text_input("Email", max_chars=100)
-        message = st.text_area("Message", max_chars=500)
         submitted = st.form_submit_button("Submit")
         
         if submitted:
